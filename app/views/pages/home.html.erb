@@ -1,3 +1,67 @@
-<h1>A Greeting for You!</h1>
-<p><%= @message %></p>
-Fire up your server using rails server.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!-- Google result text-->
+        <title>El Born Lab - We Build Digital Products</title>
+        <%= favicon_link_tag 'favicon.ico' %>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME88LD4GDV"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ME88LD4GDV');
+        </script>
+        <!-- Google result description-->
+        <meta name="description" content="We build digital products for brands and startups. Delivering beautifully crafted web and mobile applications, providing SEO capability and expert cyber security services.">
+        <!-- og Is Open Graph tagging used by Facebook and Twitter has a siilar one.-->
+        <!--  Essential META Tags -->
+        <meta property="og:title" content="El Born Lab">
+        <meta property="og:image" content="https://elbornlab.com/appdev.jpg">
+        <meta property="og:description" content="We build digital products for brands and startups. Delivering beautifully crafted web and mobile applications, providing SEO capability and expert cyber security services.">
+        <meta property="og:url" content="https://elbornlab.com">
+        <meta name="twitter:card" content="summary_large_image">
+        <!--  Non-Essential, But Recommended -->
+        <meta property="og:site_name" content="El Born Lab">
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+  <body>
+    <%= render 'shared/navbar-simple' %>
+    <div class="container">
+    
+        <div class="card border-0">
+            
+            <div class="text-greeting mt-5">
+            <p>Hola</p>
+            </div>
+            <div class="text-value">
+                <p>We build digital products for brands and startups. Delivering beautifully crafted web and mobile applications, providing SEO capability and expert cyber security services.</p>
+            </div>
+            <div class="text-greeting2">
+            <p>Have a look at <a href="#" class="text-landing-link">what we do</a>, our past <a href="#" class="text-landing-link">success stories</a> and feel free to <a href="#" class="text-landing-link">get intouch</a>.</p>
+            </div>
+            <div class="card border-0 align-items-center mb-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://res.cloudinary.com/dspkvxtxa/video/upload/v1625694684/msj438cwmsqntwvunfx8.mp4" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Google result text
+        <div class="centerimage"><%= render  "shared/banner-image" %>
+        </div>
+      -->
+<!-- Workd well
+    <%= cl_video_tag("npbpq1adizzqh0w2w7jn", :size => "320x240", :controls => true) %>
+-->
+<%= render 'shared/ourwork_section' %> 
+<%= render 'shared/services_section' %>
+<%= render 'shared/events_section' %>
+<%= render 'shared/contact_section' %>
+
+  </body>
+</html>
