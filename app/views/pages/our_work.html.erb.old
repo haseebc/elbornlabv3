@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME88LD4GDV"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ME88LD4GDV');
+        </script>
+    <title>El Born Lab - Our Work Building Digital Products</title>    
+    <!-- Google result description-->
+    <meta name="description" content="We combine our application development and deep tech skills with a thorough understanding of our clients’ business needs to deliver projects with results and value.">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="El Born Lab - Our Work Building Digital Products">
+    <meta property="og:description" content="We bring together our application development and deep tech skills with a thorough understanding of our clients’ business needs to deliver projects with results and value.">
+    <meta property="og:image" content="https://elbornlab.com/our_work.jpg">
+    <meta property="og:url" content="https://elbornlab.com/our_work">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:site_name" content="El Born Lab - Our Work">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+  <body>
+<div>
+
+
+    <div class="card-centre_white">
+      
+      <div class="text-greeting">
+      <p>Portfolio</p>
+      </div>
+      <div class="text-value">
+        <p>Our work</p>
+      </div>
+      <div class="text-ourwork">
+      <p>We bring together our application development and deep tech skills with a thorough understanding of our clients’ business needs to deliver projects with results and value.</p>
+      </div>
+
+    </div>
+<!-- Examples of our work section --> 
+
+<div class="container-black_special">
+    
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!--
+        <div class="col">
+            <div class="card card-responsive_grid">
+            <img src="ing_logo.jpg"  class="card-img-top" alt="...">
+            <p class="text-sector">Finance</p>
+            <p class="bottomleft">ING Bank Europe</p>
+            </div>
+        </div>
+        --> 
+        <div class="col">
+            <div class="card card-responsive_grid">
+            <img src="ceziam_small.jpg"  class="card-img-top" alt="...">
+            <p class="text-sector_black_ceziam">Cybersecurity</p>
+            <p class="bottomleft_black_ceziam">Ceziam</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-responsive_grid">
+            <img src="ikea_pic2.jpg" class="card-img-top" alt="...">
+            <p class="text-sector">Furniture</p>
+            <p class="bottomleft">Ikea Sweden</p>   
+            </div>
+        </div>
+    </div>  
+    <div class="row row-cols-1 row-cols-md-2 g-4">  
+        <div class="col">
+            <div class="card card-responsive_grid">
+            <img src="skinkel.jpg"  class="card-img-top" alt="...">
+            <p class="text-sector_black">Wellness</p>
+            <p class="bottomleft_black">Skinkel.es</p>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-responsive_grid">
+            <img src="montse.jpg" class="card-img-top" alt="...">
+            <p class="text-sector">Health</p>
+            <p class="bottomleft">Montse Timoneda</p>   
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-responsive_grid">
+            <img src="eatamina.jpg" class="card-img-top" alt="...">
+            <p class="text-sector">Nutrition</p>
+            <p class="bottomleft">eatamina</p>   
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-responsive_grid">
+            <img src="ing_logo.jpg"  class="card-img-top" alt="...">
+            <p class="text-sector">Finance</p>
+            <p class="bottomleft">ING Bank Europe</p>
+            </div>
+        </div>
+    </div>
+    <!-- From kit lewagon https://uikit.lewagon.com/documentation#card_category-->
+
+
+
+
+
+
+</div>
+
+
+  <%= render 'shared/contact_section.html.erb' %>
+
+
+  </body>
+</html>

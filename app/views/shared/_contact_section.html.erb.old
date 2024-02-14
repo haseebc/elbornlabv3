@@ -1,0 +1,106 @@
+
+<div class="container-black_form">
+    <div class="card-description2">         
+        <form action="https://formspree.io/f/mwkaorna" method="POST">
+        <p class="text-formintro"> We'd love to hear from you. </p>
+        <p class="text-formyourdetails"> Your details </p>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <p class="text-formyourinfo"> Your firstname </p>       
+                <input 
+                type="text" 
+                name="firstname"
+                style="background-color:white; 
+              vertical-align:9px;color: #4F4F4F">
+            </div>
+            <div class="col">
+            <p class="text-formyourinfo"> Your surname </p>
+                <input 
+                type="text" 
+                name="lastname"
+                style="background-color:white; 
+              vertical-align:9px;color: #4F4F4F">
+            </div>
+            <div class="col">
+            <p class="text-formyourinfo"> Contact number </p>
+                <input 
+                type="text" 
+                name="telephone"
+                style="background-color:white; 
+              vertical-align:9px;color: #4F4F4F">
+            </div>
+            <div class="col">
+            <p class="text-formyourinfo"> Country </p>
+                <input 
+                type="text" 
+                name="Country"
+                style="background-color:white; 
+              vertical-align:9px;color: #4F4F4F"> 
+            </div>
+            <div class="col">
+            <p class="text-formyourinfo"> Your company </p>
+                <input 
+                type="text" 
+                name="Company"
+                style="background-color:white; 
+              vertical-align:9px;color:black"> 
+            </div>   
+            <div class="col">
+            <p class="text-formyourinfo"> Contact email </p>
+                <input 
+                type="email" 
+                name="_replyto"
+                style="background-color:white; 
+              vertical-align:9px;color:black">
+            </div> 
+        </div>  
+        <p class="text-formhowcanhelp"> How can we help? </p>
+        <p class="text-formyourinfo"> Tell us about your project </p>
+        <textarea style="width:65%" name="message"></textarea>
+        <div class="row row-cols-1 row-cols-md-1 g-4">
+            <div class="col">
+            <!-- 
+            <button type="submit" class="btn btn-flat"> -->
+            <button type="submit" class="btn-treehouse">
+            <i class="far fa-paper-plane"></i> Send Info
+            </button>
+            </form>
+                
+            </div>
+        </div>
+        <p class="text-privpolicy"> We'll only use your information to help us handle your enquiry, as explained in our Privacy Policy. </p>
+        
+  <div class="row">
+
+    <div class="col-6">
+    <p class="text-formhowcanhelp">Say hello</p>
+    <p class="text-ournumber_small">+34 6712 99969</p>
+    <p class="text-ouremail_small">hola@elbornlab.com</p>
+    <p class="text-ouremail_small">LinkedIn</p>
+    
+    <p></p>
+    
+    </div>
+    
+    <div class="col-6">
+    <p class="text-formhowcanhelp">Take a look</p>
+    <p class="text-ournumber_small">Our work</p>
+    <p class="text-ouremail_small">Success stories</p>
+    <p class="text-ouremail_small">Services</p>
+    <p class="text-ouremail_small">Blog</p>
+    <p class="text-ouremail_small">Contact us</p>
+    
+    <p></p>
+    
+    </div>
+    
+
+  </div>
+  <p class="text-formyourinfo">Copyright © 2021</p>
+  <p class="text-formyourinfo">El Born Lab</p>
+  <p class="text-formyourinfo">Plaça de Sant Pere 13</p>
+  <p class="text-formyourinfo">08003 Barcelona</p>
+  <p class="text-formyourinfo"><a class="text-addrslink" href="https://goo.gl/maps/zUrVgaprQp5EbLpQ7" target="_blank" rel="noopener noreferrer">View on map</a></p>
+</div>
+</div>
+

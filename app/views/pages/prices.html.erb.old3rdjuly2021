@@ -1,0 +1,173 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME88LD4GDV"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ME88LD4GDV');
+        </script>
+        <!-- Google result text-->
+    <title>El Born Lab - Digital Services We Provide</title>
+    <!-- Google result description-->
+    <meta name="description" content="Web and mobile application devlopment, cybersecurity and online brand development.">
+
+<!--  Essential META Tags -->
+    <meta property="og:title" content="El Born Lab">
+    <meta property="og:description" content="We build digital products for brands and startups. Our core services include Web and mobile application development, cybersecurity and online brand development.">
+    <meta property="og:image" content="https://elbornlab.com/products.jpg">
+    <meta property="og:url" content="https://elbornlab.com/services">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:site_name" content="El Born Lab - Services">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+  <body>
+    <div class="card-centre_white">
+      <div class="text-greeting">
+      <p>What are our rates for Apps</p>
+      </div>
+      <div class="text-value">
+        <p>Prices</p>
+      </div>
+      <div class="text-ourwork">
+      <p>It's always somewhat tricky to determine the price of a project so we've listed below some of our rates for Mobile Apps. For other services we offer such as Web Design, SEO and Cyber Security please get intouch. If you wish a dedicated team for your project we can work for you directly or put you intouch with oour partner networks.</p>
+      </div>
+    </div>
+    
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <div class="card text-center mb-4">
+                    <div class="card-header">
+                        Around 1 month
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">MVP</h5>
+                        <p class="card-text">The simplest version of any app which validates the product idea and can be demonstrated to potential customers. Typically 1 to 3 developers and design experts. </p>
+                        <a href="#" class="btn btn-success">Book a Consultation</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        From 15 000 €
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card text-center mb-4">
+                    <div class="card-header">
+                        Around 1-2 month
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Basic</h5>
+                        <p class="card-text">
+                          An app in production environment with high availability. For example QR code scanner or inventoy management. Typically 2 developers, designer and QA.
+                        </p>
+                        <a href="#" class="btn btn-success">Book a Consultation</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        20 000 to 45 000 €
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="row align-items-center"> 
+        <div class="col-6">           
+            <div class="card text-center">
+                <div class="card-header">
+                    Around 3-6 months
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Medium</h5>
+                    <p class="card-text">
+                        A more sophiscicated app for example a payment app for cashless or a symptoms tracking app. Typically 4 developers, designer, QA and a security engineer.
+                    </p>
+                    <a href="#" class="btn btn-success">Book a Consultation</a>
+                </div>
+                <div class="card-footer text-muted">
+                    45 000 to 75 000 €
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">           
+            <div class="card text-center">
+                <div class="card-header">
+                    6 months +
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Complex</h5>
+                    <p class="card-text">
+                        This maybe a app with banking features, food delivery or an e-wallet app . Typically 4 developers, designer, QA, security engineer and DevOps.
+                    </p>
+                    <a href="#" class="btn btn-success">Book a Consultation</a>
+                </div>
+                <div class="card-footer text-muted">
+                    75 000 to 130 000 €
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row align-items-center">
+            <div class="col-6">
+                <div class="card card-responsive_grid">
+                <img src="seo3.jpg"  class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card card-responsive_grid border-0">
+                <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+                <span class="border-0"></span>
+                <p class="text-section-title">SEO & Digital Marketing
+                </p>
+                <p class="text-section-desc">We utilise industry best practices to ensure your website or digital product has the best SEO potential. In addition, we can work with you to create well crafted content to provide a positive impression providing your brand the correct tone and message.
+                </p>
+                </div>
+            </div>
+        </div> 
+        <div class="row align-items-center row-cols-1 row-cols-md-2 g-4">
+            <div class="col-6">
+                <div class="card card-responsive_grid border-0">
+                <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+                <span class="border-0"></span>
+                <p class="text-section-title">Cyber Security
+                </p>
+                <p class="text-section-desc">We provide a broad range of security services for your web or mobile application. This ranges from a security audit to detailed penetration testing of your digital product. In-addition, we can provide integration expertise of key services such as payment systems enabling secure electronic commerce.
+                </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card card-responsive_grid">
+                <img src="cyber.jpg"  class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div> 
+                <div class="row align-items-center row-cols-1 row-cols-md-2 g-4">
+            <div class="col-6">
+                <div class="card card-responsive_grid">
+                <img src="more.jpg"  class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card card-responsive_grid border-0">
+                <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+                <span class="border-0"></span>
+                <p class="text-section-title">Anything else on your mind?
+                </p>
+                <p class="text-section-desc">If you need anything else specific that is not described please feel free to get in touch. We'd love to hear about your project ideas, if we don't have a solution then we can reach out to our network and try to put you in contact with soeone who may be able to help.
+                </p>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+<%= render 'shared/contact_section.html.erb' %>
+  </body>
+</html>

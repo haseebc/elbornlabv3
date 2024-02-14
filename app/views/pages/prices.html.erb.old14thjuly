@@ -1,0 +1,167 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME88LD4GDV"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ME88LD4GDV');
+        </script>
+        <!-- Google result text-->
+    <title>El Born Lab - Prices for Digital Products</title>
+    <!-- Google result description-->
+    <meta name="description" content="Costs for Mobile Apps, from MVP to more sophisticated digital products.">
+
+<!--  Essential META Tags -->
+    <meta property="og:title" content="El Born Lab">
+    <meta property="og:description" content="We build digital products for brands and startups. These are prices for mobile apps from MVP to more complex feautures.">
+    <meta property="og:image" content="https://elbornlab.com/design.jpg">
+    <meta property="og:url" content="https://elbornlab.com/prices">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:site_name" content="El Born Lab - Prices">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+  <body>
+    <div class="card-centre_white">
+      <div class="text-greeting">
+      <p>What are our rates for Mobile Apps</p>
+      </div>
+      <div class="text-value">
+        <p>Prices</p>
+      </div>
+      <div class="text-ourwork">
+      <p>It's always somewhat tricky to determine the price of a project so we've listed below some of our rates for Mobile Apps. For other services we offer such as Web Design, SEO and Cyber Security please get intouch. If you wish a dedicated team for your project we can work for you directly or put you intouch with oour partner networks.</p>
+      </div>
+    </div>
+    
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="card-deck">
+                <div class="card text-center mb-4 mx-4">
+                    <div class="card-header text-card-prices">
+                    Around 1 month
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">MVP</h5>
+                    <p class="card-text text-card-prices">The simplest version of any app which validates the product idea and can be demonstrated to potential customers. Typically 1 to 3 developers and design experts. </p>
+                    <%= link_to "Book a Consultation", contact_path, class: "btn btn-success" %>
+                    </div>
+                    <div class="card-footer text-muted text-card-price">
+                    From 15 000 €
+                    </div>
+                </div>
+                <div class="card text-center mb-4 mx-4">
+                    <div class="card-header  text-card-prices">
+                    Around 1-2 month
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Basic</h5>
+                    <p class="card-text text-card-prices">
+                    An app in production environment with high availability. For example QR code scanner or inventoy management. Typically 2 developers, designer and QA. 
+                    </p>
+                    <%= link_to "Book a Consultation", contact_path, class: "btn btn-success" %>
+                    </div>
+                    <div class="card-footer text-muted text-card-price">
+                    20 000 to 45 000 €
+                    </div>
+                </div>
+            </div>  
+        </div>        
+        <div class="row align-items-center"> 
+            <div class="card-deck">        
+                <div class="card text-center mb-4 mx-4">
+                    <div class="card-header text-card-prices">
+                    Around 3-6 months
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Medium</h5>
+                    <p class="card-text text-card-prices">
+                    A more sophiscicated app for example a payment app for cashless or a symptoms tracking app. Typically 4 developers, designer, QA and a security engineer.
+                    </p>
+                    <%= link_to "Book a Consultation", contact_path, class: "btn btn-success" %>
+                    </div>
+                    <div class="card-footer text-muted text-card-price">
+                    45 000 to 75 000 €
+                    </div>
+                </div>
+                <div class="card text-center mb-4 mx-4">
+                    <div class="card-header text-card-prices">
+                    6 months +
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Complex</h5>
+                    <p class="card-text text-card-prices">
+                    This maybe a app with banking features, food delivery or an e-wallet app . Typically 4 developers, designer, QA, security engineer and DevOps.
+                    </p>
+                    <%= link_to "Book a Consultation", contact_path, class: "btn btn-success" %>
+                    </div>
+                    <div class="card-footer text-muted text-card-price">
+                    75 000 to 130 000 €
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-ourwork text-justify font-weight-bold my-4 mx-2 ">What is included in the prices of an MVP and apps?</h3>
+        <div class="row align-items-center"> 
+            <div class="card-deck">
+                <div class="card mb-4 mx-4">
+                    <img class="card-img-top" src="uxdesign.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title text-card-price">UX/UI Design</h5>
+                    <p class="card-text text-card-price">The graphical layout of the design is built to ensure it is attractive and matches the personality of the app and is seamless. Wireframes are used for rendering initial interface interactions.</p>
+                    </div> 
+                </div>
+                <div class="card mb-4 mx-4">
+                    <img class="card-img-top" src="ios_android.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title text-card-price">Android/iOS Development</h5>
+                    <p class="card-text text-card-price">Development of apps on the most popular platforms: Android and iOS. Android is the most popular globally, yet iOS has a higher market share in North America. We development seamless apps on both.</p>
+                    </div> 
+                </div>
+                <div class="card mb-4 mx-4">
+                    <img class="card-img-top" src="training.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title text-card-price">Client training</h5>
+                    <p class="card-text text-card-price">We provide documentation and source code upon completion. This is supplemented with training sessions so further changes to the app can be planned and executed to sypport business requirements.</p>
+                    </div> 
+                </div>
+            </div>   
+        </div>
+        <div class="row align-items-center"> 
+            <div class="card-deck">
+                <div class="card mb-4 mx-4">
+                    <img class="card-img-top" src="prototype.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title text-card-price">MVP Analysis & Launch</h5>
+                    <p class="card-text text-card-price">We review and assist in continously reviewing the strategy for MVP development and ensure the launch of the app successfully meets the anticpated first customer segment.</p>
+                    </div> 
+                </div>
+                <div class="card mb-4 mx-4">
+                    <img class="card-img-top" src="techresearch.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title text-card-price">Technical research</h5>
+                    <p class="card-text text-card-price">The technical stack and components design required for the functional and non functional requirements are reviewed and available options researched.</p>
+                    </div> 
+                </div>
+                <div class="card mb-4 mx-4">
+                    <img class="card-img-top" src="delivery.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title text-card-price">Delivery requirements</h5>
+                    <p class="card-text text-card-price">The criteria for success are met for all the customer requirements and QA testing completed.</p>
+                    </div> 
+                </div>
+            </div>   
+        </div>
+
+    </div>    
+    <%= render 'shared/contact_section.html.erb' %>
+    </body>
+</html>

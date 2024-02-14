@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME88LD4GDV"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ME88LD4GDV');
+        </script>
+        <!-- Google result text-->
+    <title>El Born Lab - Digital Services We Provide</title>
+    <!-- Google result description-->
+    <meta name="description" content="Web and mobile application devlopment, cybersecurity and online brand development.">
+
+<!--  Essential META Tags -->
+    <meta property="og:title" content="El Born Lab">
+    <meta property="og:description" content="We build digital products for brands and startups. Our core services include Web and mobile application development, cybersecurity and online brand development.">
+    <meta property="og:image" content="https://elbornlab.com/products.jpg">
+    <meta property="og:url" content="https://elbornlab.com/services">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:site_name" content="El Born Lab - Services">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+  <body>
+    <div class="card-centre_white">
+      <div class="text-greeting">
+      <p>What we can do</p>
+      </div>
+      <div class="text-value">
+        <p>Services</p>
+      </div>
+      <div class="text-ourwork">
+      <p>From our core expertise in web and mobile application devlopment, cybersecurity and online brand development, we have the skills and partner networks to help you obtain your business goals.</p>
+      </div>
+    </div>
+    <div class="row">
+        <!-- col-6 because its 6 columns taken. Max is 12.-->
+
+        <div class="col-6">
+            <div class="card_image responsive_image">
+            <img src="appdev2.jpg" alt="Avatar"
+             >
+            </div>
+        </div>
+        <div class="col-6">  
+            <div class="container_centre_A card_simple">  
+            <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+            </p>
+            <p class="text-section">Digital Product Development
+            </p>
+            We build digital products for brands and startups. By partnering with companies of all sizes, our App Developers deliver products that impacts lives and facilitate change. Some of these may receive VC funding and win awards.
+            <p></p>
+            </div>
+        </div>
+        <div class="col-6">  
+            <div class="container_centre_B card_simple">  
+            <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+            </p>
+            <p class="text-section">Web Design
+            </p>
+            
+            <p>Ranging from static websites to fully functioning web applications, we build modern responsive websites that give your customers a positive online experience on any device. We ensure yur website is uptodate with modern standards and lightweight as possible.</p>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card_image">
+            <img src="webdesign.jpg" alt="Avatar"
+             style="width:100%">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card_image">
+            <img src="seo.jpg" alt="Avatar"
+             style="width:100%">
+            </div>
+        </div>
+        <div class="col-6">  
+            <div class="container_centre_A card_simple">  
+            <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+            </p>
+            <p class="text-section">SEO & Digital Marketing
+            </p>
+            <p>We utilise industry best practices to ensure your website or digital product has the best SEO potential. In addition, we can work with you to create well crafted content to provide a positive impression providing your brand the correct tone and message.
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="container_centre_B card_simple">
+                
+            <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+            </p>
+            <p class="text-section">Cyber Security
+            </p>
+            <p>We provide a broad range of security services for your web or mobile application. This ranges from a security audit to detailed penetration testing of your digital product. In-addition, we can provide integration expertise of key services such as payment systems enabling secure electronic commerce.  </p>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card_image">
+            <img src="cybersecurity.jpg" alt="Avatar"
+             style="width:100%">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card_image">
+            <img src="thoughts.jpg" alt="Avatar"
+             style="width:100%">
+            </div>
+        </div>
+         <div class="col-6">  
+            <div class="container_centre_A card_simple">  
+            <p class="text-section_break"><i class="fas fa-minus fa-5x"></i>
+            </p>
+            <p class="text-section">Anything else on your mind?
+            </p>
+            <p>If you need anything else specific that is not described please feel free to get in touch. We'd love to hear about your project ideas, if we don't have a solution then we can reach out to our network and try to put you in contact with soeone who may be able to help.
+            </div>
+        </div>  
+    </div>
+<%= render 'shared/contact_section.html.erb' %>
+  </body>
+</html>

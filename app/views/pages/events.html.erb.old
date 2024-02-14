@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME88LD4GDV"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ME88LD4GDV');
+        </script>
+        <!-- Google result text-->
+    <title>El Born Lab - Events: Things We Teach</title>
+    <!-- Google result description-->
+    <meta name="description" content="Web and mobile application devlopment, cybersecurity and online brand development.">
+
+<!--  Essential META Tags -->
+    <meta property="og:title" content="El Born Lab">
+    <meta property="og:description" content="We build digital products for brands and startups. Our core services include Web and mobile application development, cybersecurity and online brand development.">
+    <meta property="og:image" content="https://elbornlab.com/products.jpg">
+    <meta property="og:url" content="https://elbornlab.com/services">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:site_name" content="El Born Lab - Services">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+  <body>
+    <div class="container">
+    <%= render 'shared/navbar-simple' %>
+        <div class="card border-0 mt-5">    
+            <div class="text-greeting">
+            <p>Things we teach</p>
+            </div>
+            <div class="text-value">
+                <p>Events</p>
+            </div>
+            <div class="text-ourwork">Our workshops and courses are for beginners or those who want to improve their existing developer skills. In-addition, our cyber security courses provide a deep understanding of techniques hackers use to break apps.
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <section class="wrapper">
+  <div class="container">
+  
+  <div class="row">
+ <div class="col-sm-4"><div class="card card_courses text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+         <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">Cyber Security</small>
+            <h4 class="card-title mt-0 "><a class="text-white" href="https://www.meetup.com/barcelona-coding-school-building-and-hacking-apps/events/279423202/">Penetration Testing: An Intro</a></h4>
+           <small><i class="far fa-clock"></i> August 30, 2021</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Haseeb</h6>
+     <small>Developer & Security Architect</small>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+     <div class="col-sm-4"><div class="card card_courses text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
+         <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">Web Development</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Code Your Landing Page</a></h4>
+           <small><i class="far fa-clock"></i> September 1, 2021</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/female-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Erika</h6>
+     <small>Front End Developer</small>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+
+</div>
+  
+</div>
+</section>
+
+
+
+  </body>
+</html>
