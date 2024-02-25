@@ -30,36 +30,30 @@
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     </head>
   <body>
-    <%= render 'shared/navbar-simple' %>
-    <div class="container">
-    
-        <div class="card border-0">
-            
-            <div class="text-greeting mt-5">
-            <p>Hola</p>
-            </div>
-            <div class="text-value">
-                <p>We build digital products for brands and startups. Delivering beautifully crafted web and mobile applications, providing SEO capability and expert cyber security services.</p>
-            </div>
-            <div class="text-greeting2">
-            <p>Have a look at <a href="#" class="text-landing-link">what we do</a>, our past <a href="#" class="text-landing-link">success stories</a> and feel free to <a href="#" class="text-landing-link">get intouch</a>.</p>
-            </div>
-            <div class="card border-0 align-items-center mb-4">
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://res.cloudinary.com/dspkvxtxa/video/upload/v1625694684/msj438cwmsqntwvunfx8.mp4" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-      <!-- Google result text
-        <div class="centerimage"><%= render  "shared/banner-image" %>
-        </div>
-      -->
-
-<%= render 'shared/ourwork_section' %> 
-<%= render 'shared/services_section' %>
-<%= render 'shared/events_section' %>
-<%= render 'shared/contact_section' %>
-
+     <%= render 'shared/navbar-simple' %>
+      <div class="container">
+          <div class="text-greeting mt-5">
+              <p>Hola</p>
+          </div>
+          <div class="text-value">
+              <p>We build digital products for brands and startups. Delivering beautifully crafted web and mobile applications, providing SEO capability and expert cybersecurity services.</p>
+          </div>
+          <div class="text-greeting2">
+              <p>Have a look at <a href="#" class="text-landing-link">what we do</a>, our past <a href="#" class="text-landing-link">success stories</a> and feel free to <a href="#" class="text-landing-link">get in touch</a>.</p>
+          </div>
+          <div class="row">
+              <div class="col-3 mx-auto">
+                  <div class="card border-0 align-items-center mb-4">
+                      <div class="embed-responsive embed-responsive-16by9 bg-transparent border-0">
+                          <iframe class="embed-responsive-item border-0 w-100" src="https://res.cloudinary.com/dspkvxtxa/video/upload/v1625694684/msj438cwmsqntwvunfx8.mp4" allowfullscreen autoplay></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <%= render 'shared/ourwork_section' %> 
+      <%= render 'shared/services_section' %>
+      <%= render 'shared/events_section' %>
+      <%= render 'shared/contact_section' %>
   </body>
 </html>
