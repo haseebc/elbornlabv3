@@ -56,6 +56,7 @@ gem "sassc-rails"
 
 # Gemfile
 gem "devise"
+gem "cloudinary"
 
 group :development, :test do
   gem "dotenv-rails"
